@@ -49,6 +49,7 @@ namespace Progetto_di_un_orologio
             g.DrawLine(Bianca, xc, yc, xmin, ymin);
             g.DrawLine(Bianca, xc, yc, xora, yora);
         }
+
         private float PosizioneXMinSec(int minsec, int xy, int lunghezzaLancetta)
         {
             double AngoloRad = (minsec*360/60) * Math.PI / 180;
@@ -244,10 +245,10 @@ namespace Progetto_di_un_orologio
             g.DrawString(":", new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc-10, yc+85);
             g.DrawString(minuti, new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc, yc + 85);
         }
-
+            
         private void Form1_Shown(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
