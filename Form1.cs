@@ -43,8 +43,8 @@ namespace Progetto_di_un_orologio
             int ysec = (int)PosizioneYMinSec(secondi,yc,185);
             int xmin = (int)PosizioneXMinSec(minuti,xc,160);
             int ymin = (int)PosizioneYMinSec(minuti,yc,160);
-            int xora = (int)PosizioneXore(ora,xc,130);
-            int yora = (int)PosizioneYore(ora,yc,130);
+            int xora = (int)PosizioneXore(ora,xc,110);
+            int yora = (int)PosizioneYore(ora,yc,110);
             g.DrawLine(penRed, xc, yc, xsec, ysec);
             g.DrawLine(Bianca, xc, yc, xmin, ymin);
             g.DrawLine(Bianca, xc, yc, xora, yora);
