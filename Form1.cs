@@ -238,14 +238,16 @@ namespace Progetto_di_un_orologio
                     g.DrawString(GiornoSet, new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc - 125, yc - 15);
                     break;
             }
-            g.DrawString(nMese, new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc+130, yc-15);
+            g.DrawString(nMese, new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc + 130, yc - 15);
             string ora = h.Hour.ToString();
             string minuti = h.Minute.ToString();
-            g.DrawString(ora, new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc-40, yc +85);
-            g.DrawString(":", new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc-10, yc+85);
+            g.DrawString(ora, new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc - 40, yc + 85);
+            g.DrawString(":", new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc - 10, yc + 85);
             g.DrawString(minuti, new Font("Arial", 20, FontStyle.Bold), Brushes.Lime, xc, yc + 85);
+
+
         }
-            
+
         private void Form1_Shown(object sender, EventArgs e)
         {
             
