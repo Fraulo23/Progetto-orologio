@@ -141,7 +141,7 @@ namespace Progetto_di_un_orologio
                     int y1 = (int)(yc - 190 * Math.Cos(angoloRad));
                     g.DrawLine(Pens.White, x, y, x1, y1);
                 }
-                
+            
             }
             for (int i = 30; i <= 360; i += 30)//si creacno le tacchette in 12, 3 , 6 e 9
             {
